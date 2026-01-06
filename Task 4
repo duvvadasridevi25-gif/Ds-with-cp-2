@@ -1,0 +1,24 @@
+class Node{
+    int data;
+    Node next;
+    //constructor
+    Node(int s){
+        data=s;
+        next=null;
+    }
+    //getdata
+    public void getdata(){
+        System.out.println(data);}
+}
+class Main {
+    public static void main(String[] args) {
+        System.out.println("sri");
+        Node s=new Node(6);
+        Node r=new Node(9);
+        System.out.println(s);
+        s.getdata();
+        r.getdata();
+        
+    }
+}
+
